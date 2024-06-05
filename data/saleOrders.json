@@ -5,6 +5,7 @@
         "items": [
             {
                 "sku_id": 220,
+                "product_name": "Product A",
                 "price": 12,
                 "quantity": 12
             }
@@ -19,6 +20,7 @@
         "items": [
             {
                 "sku_id": 221,
+                "product_name": "Product B",
                 "price": 15,
                 "quantity": 10
             }
@@ -33,11 +35,13 @@
         "items": [
             {
                 "sku_id": 222,
+                "product_name": "Product C",
                 "price": 10,
                 "quantity": 5
             },
             {
                 "sku_id": 223,
+                "product_name": "Product D",
                 "price": 20,
                 "quantity": 3
             }
@@ -52,6 +56,7 @@
         "items": [
             {
                 "sku_id": 224,
+                "product_name": "Product E",
                 "price": 8,
                 "quantity": 20
             }
@@ -66,11 +71,13 @@
         "items": [
             {
                 "sku_id": 225,
+                "product_name": "Product F",
                 "price": 25,
                 "quantity": 2
             },
             {
                 "sku_id": 226,
+                "product_name": "Product G",
                 "price": 30,
                 "quantity": 1
             }
@@ -85,6 +92,7 @@
         "items": [
             {
                 "sku_id": 227,
+                "product_name": "Product H",
                 "price": 50,
                 "quantity": 5
             }
@@ -99,11 +107,13 @@
         "items": [
             {
                 "sku_id": 228,
+                "product_name": "Product I",
                 "price": 35,
                 "quantity": 4
             },
             {
                 "sku_id": 229,
+                "product_name": "Product J",
                 "price": 40,
                 "quantity": 3
             }
@@ -118,6 +128,7 @@
         "items": [
             {
                 "sku_id": 230,
+                "product_name": "Product K",
                 "price": 22,
                 "quantity": 10
             }
@@ -132,6 +143,7 @@
         "items": [
             {
                 "sku_id": 231,
+                "product_name": "Product L",
                 "price": 18,
                 "quantity": 6
             }
@@ -146,6 +158,7 @@
         "items": [
             {
                 "sku_id": 232,
+                "product_name": "Product M",
                 "price": 12,
                 "quantity": 15
             }

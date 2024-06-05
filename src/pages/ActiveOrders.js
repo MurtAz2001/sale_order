@@ -14,7 +14,7 @@ const ActiveOrders = () => {
   }
 
   return (
-    <Box>
+    <Box overflowX="auto">
       <Table variant="simple">
         <Thead>
           <Tr>
@@ -38,7 +38,7 @@ const ActiveOrders = () => {
                 <Td>
                   {order.items.map((item) => (
                     <div key={item.sku_id}>
-                      {item.sku_id} - {item.quantity} x {item.price}
+                      {item.product_name} {item.quantity} x ${item.price}
                     </div>
                   ))}
                 </Td>

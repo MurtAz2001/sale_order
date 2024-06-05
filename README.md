@@ -1,80 +1,70 @@
-# Sales Order Management System
+# Getting Started with Create React App
 
-## Project Overview
-This project is a Sales Order Management System built using React for the frontend and Express.js for the backend. The system allows users to view and create sales orders, manage products, and handle customer data.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features Implemented
-- **View Sales Orders**: Users can view a list of sales orders filtered by status.
-- **Create Sales Orders**: Users can create new sales orders using a form that collects necessary details.
-- **Customer Management**: Customer data can be retrieved and displayed.
-- **Product Management**: Product data can be retrieved and displayed.
+## Available Scripts
 
-## Technologies Used
-- **Frontend**: React, React Query, Axios, Chakra UI
-- **Backend**: Express.js, Node.js
-- **Other**: JSON files for data storage, CORS for cross-origin requests
+In the project directory, you can run:
 
-## Project Structure
+### `npm start`
 
-### Frontend
-- **src/hooks/useSaleOrders.js**: Custom hooks for fetching and creating sales orders.
-- **src/components/CreateOrderModal.js**: Component for the modal form to create a new sales order.
-- **src/App.js**: Main application component with routes and navigation.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Backend
-- **server.js**: Express server setup with endpoints to handle requests for products, customers, and sales orders.
-- **data/**: Directory containing JSON files (products.json, customers.json, saleOrders.json) for data storage.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Setup Instructions
+### `npm test`
 
-### Backend
-1. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
-2. **Run the Server**:
-    ```bash
-    node server.js
-    ```
-    The server will run on [http://localhost:5000](http://localhost:5000).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Frontend
-1. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
-2. **Run the Application**:
-    ```bash
-    npm start
-    ```
-    The application will run on [http://localhost:3000](http://localhost:3000).
+### `npm run build`
 
-## Endpoints
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### GET /api/products
-Retrieves a list of products.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### GET /api/customers
-Retrieves a list of customers.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### GET /api/saleOrders
-Retrieves a list of sales orders.
+### `npm run eject`
 
-### POST /api/saleOrders
-Creates a new sales order.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### Request Body Example:
-```json
-{
-  "customer_id": 11908,
-  "items": [
-    {
-      "sku_id": 220,
-      "price": 12,
-      "quantity": 12
-    }
-  ],
-  "invoice_no": "Invoice-1212121",
-  "invoice_date": "7/5/2024",
-  "status": "active"
-}
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
