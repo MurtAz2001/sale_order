@@ -2,12 +2,12 @@ import { useQuery, useMutation, useQueryClient } from 'react-query';
 import axios from 'axios';
 
 const fetchSaleOrders = async (status) => {
-  const { data } = await axios.get(`http://localhost:5000/api/saleOrders`);
+  const { data } = await axios.get(`https://sale-order-backend.vercel.app/api/saleOrders`);
   return data.filter(order => order.status === status);
 };
 
 const createNewOrder = async (newOrder) => {
-  const { data } = await axios.post('http://localhost:5000/api/saleOrders', newOrder);
+  const { data } = await axios.post('https://sale-order-backend.vercel.app/api/saleOrders', newOrder);
   return data;
 };
 
